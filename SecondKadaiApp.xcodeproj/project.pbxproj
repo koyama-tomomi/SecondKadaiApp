@@ -13,6 +13,7 @@
 		35E9FC4524CD7F2300103936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E9FC4324CD7F2300103936 /* Main.storyboard */; };
 		35E9FC4724CD7F2300103936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E9FC4624CD7F2300103936 /* Assets.xcassets */; };
 		35E9FC4A24CD7F2300103936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E9FC4824CD7F2300103936 /* LaunchScreen.storyboard */; };
+		35E9FC5224CD806200103936 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E9FC5124CD806200103936 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		35E9FC4624CD7F2300103936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35E9FC4924CD7F2300103936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35E9FC4B24CD7F2300103936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E9FC5124CD806200103936 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				35E9FC3D24CD7F2300103936 /* AppDelegate.swift */,
 				35E9FC3F24CD7F2300103936 /* SceneDelegate.swift */,
 				35E9FC4124CD7F2300103936 /* ViewController.swift */,
+				35E9FC5124CD806200103936 /* ResultViewController.swift */,
 				35E9FC4324CD7F2300103936 /* Main.storyboard */,
 				35E9FC4624CD7F2300103936 /* Assets.xcassets */,
 				35E9FC4824CD7F2300103936 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				35E9FC4224CD7F2300103936 /* ViewController.swift in Sources */,
 				35E9FC3E24CD7F2300103936 /* AppDelegate.swift in Sources */,
 				35E9FC4024CD7F2300103936 /* SceneDelegate.swift in Sources */,
+				35E9FC5224CD806200103936 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2YB22LSKC;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2YB22LSKC;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
